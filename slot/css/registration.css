@@ -1,0 +1,95 @@
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.reg-frm {
+    display: flex;
+    flex-direction: column;
+}
+
+.reg-link {
+    display: flex;
+    align-items: center;
+}
+
+.reg-link p {
+    margin-right: 10px;
+}
+
+.reg-content {
+    width: 45%;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg-frm span {
+    font-size: 150%;
+    margin-bottom: 19px;
+}
+
+.reg-frm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.reg-frm input {
+    text-align: center;
+    font-family: inherit;
+    padding: 5px 15px;
+    color: black;
+    font-size: 17px;
+    width: 150px;
+    height: 35px;
+    border-radius: 24px;
+    border: none;
+    border: 2px solid #278484;
+    margin: 10px 0;
+    background-color: transparent;
+    outline: none;
+}
+
+.reg-frm input:focus {
+    width: 280px;
+    border: 2px solid #efb062;
+    transition: 0.7s;
+}
+
+.reg-btn {
+    background: #278484;
+    border: 2px solid #278484;
+    padding: 10px;
+    border-radius: 24px;
+    outline: none;
+    color: whitesmoke;
+    -webkit-box-shadow: 4px 7px 21px -8px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 7px 21px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 7px 21px -8px rgba(0, 0, 0, 0.75);
+}
+
+.reg-btn:hover {
+    background: #efb062;
+    border: 2px solid #efb062;
+    transition: 0.7s;
+    /* position: relative;
+    top: 2px; */
+}
+
+.reg-btn:active {
+    /* border: 2px solid #efb062; */
+    position: relative;
+    top: 1px;
+}
+
+#firstname,
+#lastname {
+    text-transform: capitalize;
+}
